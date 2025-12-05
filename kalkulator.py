@@ -1,16 +1,4 @@
 #!/usr/bin/env python3
-"""
-Kalkulator GUI sederhana menggunakan Tkinter.
-Simpan sebagai `kalkulator.py` lalu jalankan:
-    python kalkulator.py
-
-Fitur:
-- Tampilan seperti kalkulator biasa
-- Operasi: + - × ÷ * / % **
-- Tombol Clear (C), Backspace (⌫), tanda +/-
-- Dukungan keyboard (angka, + - * / Enter Backspace Esc)
-- Evaluasi ekspresi yang aman menggunakan ast (hanya angka dan operator dasar)
-"""
 import tkinter as tk
 from tkinter import ttk
 import ast
@@ -220,3 +208,4 @@ class Calculator(tk.Tk):
 if __name__ == '__main__':
     app = Calculator()
     app.mainloop()
+
